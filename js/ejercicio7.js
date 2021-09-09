@@ -1,3 +1,4 @@
+// 7.- Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
 let n1 = prompt("Escribe el primer número");
 let n2 = prompt("Escribe el segundo número");
 let n3 = prompt("Escribe el tercer número");

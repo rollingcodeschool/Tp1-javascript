@@ -1,3 +1,4 @@
+// 6.- Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 let n1 = prompt("Escribe un número");
 let n2 = prompt("Escribe otro número");
 if (n1 > n2) {
