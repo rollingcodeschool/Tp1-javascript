@@ -1,7 +1,6 @@
 // segunda opcion del ejercicio 9 con la funcion CharAt
-let phrase = prompt("Ingrese una phrase");
-console.log(phrase.toLowerCase());
-phrase = phrase.toLowerCase();
+const phrase = prompt("Ingrese una phrase").toLowerCase();
+console.log(phrase);
 console.log(phrase.length);
 
 // tomar un caracter variable.charAt(indice)
@@ -16,6 +15,6 @@ for (let vocal = 0; vocal < phrase.length; vocal++) {
     phrase.charAt(vocal) == "o" ||
     phrase.charAt(vocal) == "u"
   ) {
-    document.write(phrase.charAt(vocal));
+    document.writeln(phrase.charAt(vocal));
   }
 }
